@@ -7,9 +7,6 @@ document.querySelectorAll(".onglet div").forEach( function(el){
 // afficher uniquement la première div dans onglet
 document.querySelectorAll(".onglet div")[0].classList.remove("hide");
 
-this.addEventListener("mousemove", function(el){
-    console.log(el)
-})
 // bouton 
 document.querySelectorAll(".onglet button").forEach( function(btn){
     btn.addEventListener("click", function(el){
